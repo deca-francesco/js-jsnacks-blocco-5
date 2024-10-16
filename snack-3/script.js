@@ -6,3 +6,12 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // map
 const numbersPlus1 = numbers.map(number => number + 1);
 console.log(numbersPlus1);
+
+
+// ciclo for
+const numbersPlus1For = [];
+for (let i = 0; i < numbers.length; i++) {
+    let number = numbers[i];
+    numbersPlus1For.push(number + 1);
+}
+console.log(numbersPlus1For);
