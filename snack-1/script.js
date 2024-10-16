@@ -6,7 +6,7 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // log dell'array
 console.log(names);
 
-// log dell'elemento ad ogni iterazione
+// log dell'elemento dell'array ad ogni iterazione con forEach
 names.forEach(name => console.log(name));
 
 // log dell'array trasformato in stringa
