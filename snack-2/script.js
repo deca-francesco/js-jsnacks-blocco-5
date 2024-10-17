@@ -13,6 +13,9 @@ for (const key in people) {
   console.log(person.name);
 }
 
+// for each
+people.forEach(person => console.log(person.name));
+
 
 // Map + join
 console.log(people.map(person => person.name).join());

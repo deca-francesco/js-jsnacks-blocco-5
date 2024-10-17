@@ -26,6 +26,9 @@ const students = [
 const marco = students.find(student => student.name === "Marco Lanci");
 console.log(`La classe di Marco è la: ${marco.class}`);
 
+// prendo direttamente la classe in line
+// const marco = students.find(student => student.name === "Marco Lanci").class;
+
 
 
 // find esplicito

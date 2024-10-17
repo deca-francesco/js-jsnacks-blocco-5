@@ -12,8 +12,9 @@ console.log(evenNums);
 // filter ma con funzione esplicita
 const evenNums2 = nums.filter(num => {
     if (num % 2 === 0) {
-        return true
+        return true;
     }
+    return false;
 })
 
 console.log(evenNums2);

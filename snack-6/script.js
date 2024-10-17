@@ -17,7 +17,7 @@ console.log(zucchine);
 
 
 // filter arrow function implicita
-const zucchineLunghe = zucchine.filter(zucchina => zucchina.length > 15);
+const zucchineLunghe = zucchine.filter(zucchina => zucchina.length >= 15);
 console.log(zucchineLunghe);
 
 // filter arrow function esplicita
@@ -25,6 +25,7 @@ const altreZucchine = zucchine.filter(zucchina => {
   if (zucchina.length < 15) {
     return true;
   }
+  return false;
 });
 
 console.log(altreZucchine);

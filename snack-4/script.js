@@ -13,6 +13,15 @@ const authors = posts.map(post => post.author);
 console.log(authors);
 
 
+// map esplicito
+const authors2 = posts.map(post => {
+  return post.author;
+})
+console.log(authors2);
+
+
+
+
 // ciclo for
 const authorsFor = [];
 for (let i = 0; i < posts.length; i++) {

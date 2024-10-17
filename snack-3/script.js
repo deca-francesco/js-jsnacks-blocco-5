@@ -5,6 +5,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 // map
 const numbersPlus1 = numbers.map(number => number + 1);
+// const numbersPlus1 = numbers.map(number => ++number);    così fa la stessa cosa di + 1.  number++ prima legge number e poi lo incrementa
 console.log(numbersPlus1);
 
 

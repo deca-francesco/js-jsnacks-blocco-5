@@ -32,8 +32,9 @@ console.log(studente);
 // find esplicito
 const studente2 = students.find(student => {
   if (student.id === 2) {
-    return true
+    return true;
   }
+  return false;
 });
 console.log(studente2);
 
